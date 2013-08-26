@@ -1,0 +1,23 @@
+# use glob syntax
+syntax: glob
+ 
+*.flock
+*.rpt
+*.done
+*.summary
+*.smsg
+*.qmsg
+*.pof
+*.sof
+*.rbf
+*.jdi
+*.cdb
+*.hdb
+*.rdb
+*.bak
+*.ddb
+db/**
+incremental_db/**
+simulation/modelsim/**
+!simulation/modelsim/*.do
+output_files/**
